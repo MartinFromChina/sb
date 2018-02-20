@@ -1,0 +1,41 @@
+
+
+FILE_TYPE=FORM_DEFN VERSION=1
+
+FORM AUTOGREYTEXT 
+	FIXED
+	PORT 30 22
+	HEADER "Dialog"
+
+	TILE
+	#======================
+
+			
+		TEXT "Input Layer Num"
+		FLOC 1 1
+		ENDTEXT
+		
+		#text input field, STRFILLIN = of the input filed and maximum number of characters which can be written
+		FIELD layer_num
+		FLOC 15 1
+		STRFILLIN 12 10
+		ENDFIELD
+
+			
+			
+		#button
+		FIELD done
+		FLOC 10 5
+		MENUBUTTON "done" 8 2
+		ENDFIELD
+		
+		#this is just to add bottom padding
+		#GROUP ""
+		#FLOC 1 32
+		#FSIZE 0 1
+		#ENDGROUP	
+
+	#======================
+	ENDTILE
+
+ENDFORM
