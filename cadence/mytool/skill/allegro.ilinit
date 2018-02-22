@@ -1,0 +1,18 @@
+;
+; This example file shows how to load Skill files (those with the
+; 	extension ".il" in the current directory.
+; To use copy to allegro.ilinit if to be used by all Allegro based programs
+; or <programName>.ilinit if intended for only one program
+;
+; Setting Allegro environment variable, LoadSkillFilesDebug will turn
+; on printing the name of each file as it is loaded.
+
+
+load("nothing.il")
+load("silkscreen_top_display.il")
+load("silkscreen_bottom_display.il")
+load("single_layer_display.il")
+load("multi_layer_display.il")
+load("20180220_DXF_display.il")
+
+

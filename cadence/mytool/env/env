@@ -1,0 +1,31 @@
+source $TELENV
+
+
+alias ~G   oops
+alias ~F   done
+alias ~A     next
+
+alias sld   s_layer_qb
+alias mld   m_layer_qb
+alias IOdxf   DiXiF_display_qb
+
+funckey w  add connect
+
+
+
+#funckey cs  colorset
+funckey sdt silkscreen_dt_qb
+funckey sdb silkscreen_db_qb
+funckey siv replay poly_invisib_qb.scr
+funckey sv  replay poly_visib_qb.scr
+
+### User Preferences section
+### This section is computer generated.
+### Please do not modify to the end of the file.
+### Place your hand edits above this section.
+###
+unset infinite_cursor_bug_nt
+unset pcb_cursor
+set telskill
+
+

@@ -1,0 +1,30 @@
+
+
+FILE_TYPE=FORM_DEFN VERSION=1
+
+FORM AUTOGREYTEXT 
+	FIXED
+	PORT 30 22
+	HEADER "Dialog"
+
+	TILE
+	#======================
+
+			
+		TEXT "Undevelopment function"
+		FLOC 1 1
+		ENDTEXT
+
+			
+			
+		#button
+		FIELD done
+		FLOC 10 5
+		MENUBUTTON "exit" 8 2
+		ENDFIELD
+		
+
+	#======================
+	ENDTILE
+
+ENDFORM
