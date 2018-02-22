@@ -13,6 +13,8 @@ funckey w  add connect
 
 
 
+funckey  skl0 skill_load
+funckey  skl1 skill_load_real
 #funckey cs  colorset
 funckey sdt silkscreen_dt_qb
 funckey sdb silkscreen_db_qb
