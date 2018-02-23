@@ -8,11 +8,14 @@
 ; on printing the name of each file as it is loaded.
 
 
+load("initskill.il")
 load("nothing.il")
 load("silkscreen_top_display.il")
 load("silkscreen_bottom_display.il")
 load("single_layer_display.il")
 load("multi_layer_display.il")
 load("20180220_DXF_display.il")
+load("mytool_ref_docs.il")
+load("Normal_PCB_display.il")
 
 

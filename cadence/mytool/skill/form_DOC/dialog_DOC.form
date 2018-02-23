@@ -1,0 +1,41 @@
+FILE_TYPE=FORM_DEFN VERSION=1
+
+FORM AUTOGREYTEXT 
+	FIXED
+	PORT 60 50
+	HEADER "DOC Reference"
+
+	TILE
+	#======================
+
+			
+		TEXT "if you forget the shortcut key , see the DOC reference"
+		FLOC 1 1
+		ENDTEXT
+		
+		TEXT "for example : "
+		FLOC 1 3
+		ENDTEXT
+		
+		#TEXT "load the skill file no have to restart the allegro : skill load(\"allegro.ilinit\")  "
+		TEXT "load the skill file no have to restart the allegro : skill load('allegro.ilinit')  "
+		FLOC 1 4
+		ENDTEXT
+		
+		
+
+			
+			
+		#button
+		FIELD done
+		FLOC 26 8
+		MENUBUTTON "OK" 8 2
+		ENDFIELD
+		
+
+	#======================
+	ENDTILE
+
+ENDFORM
+
+

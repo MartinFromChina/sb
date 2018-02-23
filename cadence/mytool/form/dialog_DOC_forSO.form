@@ -1,0 +1,60 @@
+FILE_TYPE=FORM_DEFN VERSION=1
+
+FORM AUTOGREYTEXT 
+	FIXED
+	PORT 80 50
+	HEADER "DOC Refer for Specific Operation "
+
+	TILE
+	#======================
+		
+		TEXT "shortcuts and command"
+		FLOC 1 1
+		ENDTEXT
+		
+		
+		TEXT "1,skl0------------------skill_load shortcut     "
+		FLOC 3 3
+		ENDTEXT
+		
+		TEXT "2,skl1------------------skill_load_real shortcut "
+		FLOC 3 5
+		ENDTEXT
+		
+		TEXT "3,skill load('allegro.ilinit')--------reload skill file no have to restart allegro"
+		FLOC 3 7
+		ENDTEXT
+		
+		
+		TEXT "4,source -q $localenv/env   ----reload the env file no have to restart allegro"
+		FLOC 3 9
+		ENDTEXT
+
+		TEXT "5,echo $localenv  -------- find the path of local env"
+		FLOC 3 11
+		ENDTEXT
+		
+		
+		
+		TEXT "6,skill------------------enter the skill mode "
+		FLOC 3 13
+		ENDTEXT
+		
+		TEXT "7,exit-------------------exit the skill mode"
+		FLOC 3 15
+		ENDTEXT
+		
+	
+		#button
+		FIELD done
+		FLOC 36 22
+		MENUBUTTON "OK" 8 2
+		ENDFIELD
+		
+
+	#======================
+	ENDTILE
+
+ENDFORM
+
+

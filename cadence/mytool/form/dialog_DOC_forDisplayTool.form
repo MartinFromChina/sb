@@ -1,0 +1,71 @@
+FILE_TYPE=FORM_DEFN VERSION=1
+
+FORM AUTOGREYTEXT 
+	FIXED
+	PORT 80 50
+	HEADER "DOC Refer for Display tool "
+
+	TILE
+	#======================
+		
+		TEXT "shortcuts : "
+		FLOC 1 1
+		ENDTEXT
+		
+		
+		TEXT "1,sdt------------------silksreen top display shortcut     "
+		FLOC 3 3
+		ENDTEXT
+		
+		TEXT "2,sdb------------------silksreen bottom display shortcut "
+		FLOC 3 5
+		ENDTEXT
+		
+		TEXT "3,IOdxf + 0/1/2--------DXF dispaly shortcut (0 : top;      1 : bottom;     2 : both)"
+		FLOC 3 7
+		ENDTEXT
+		
+		
+		TEXT "4,sld + 1/2/3...   ----single layer display shortcut "
+		FLOC 3 9
+		ENDTEXT
+
+		TEXT "5,mld + 1/2/3...   ----multi layer display shortcut (1 :  the first layer;     2 :  the second layer;     3 :  ......)"
+		FLOC 3 11
+		ENDTEXT
+		
+		
+		
+		TEXT "6,siv------------------etch shape invisible shortcut "
+		FLOC 3 13
+		ENDTEXT
+		
+		TEXT "7,sv-------------------etch shape visible shortcut "
+		FLOC 3 15
+		ENDTEXT
+		
+		TEXT "8,npd-------------------normal pcb display (1 :  DXF+silkscreen;     2 :  DXF+routekeepout;     other :  normal pcb)"
+		FLOC 3 17
+		ENDTEXT
+		
+		
+		
+		
+		
+		
+
+			
+			
+		#button
+		FIELD done
+		FLOC 36 23
+		MENUBUTTON "OK" 8 2
+		ENDFIELD
+		
+
+	#======================
+	ENDTILE
+
+ENDFORM
+
+

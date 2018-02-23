@@ -1177,19 +1177,41 @@ BEGIN
 	   		POPUP "Display Tool"
 			BEGIN
 				MENUITEM "Color Set", "nothing_qb"
+				MENUITEM "Normal PCB Diaplay", "normal_pd_qb"
+				//MENUITEM "Single Layer Keep", "nothing_qb"
+				//MENUITEM "Multi Layer Keep", "nothing_qb"
 				MENUITEM "Silkscreen Dispaly Top","silkscreen_dt_qb"
 				MENUITEM "Silkscreen Dispaly Bottom","silkscreen_db_qb"
 				MENUITEM "DXF Dispaly ","DiXiF_display_qb"
-				MENUITEM "Single Layer Dispaly ","s_layer_qb"
-				MENUITEM "Multi Layer Dispaly ","m_layer_qb"
+				MENUITEM "Single Layer Dispaly (etch)","s_layer_qb"
+				MENUITEM "Multi Layer Dispaly (etch)","m_layer_qb"
 				MENUITEM "EtchShape Visible","replay poly_invisib_qb.scr"
 				MENUITEM "EtchShape Invisible ","replay poly_visib_qb.scr"
+				POPUP "Highlight ... "
+				BEGIN
+					MENUITEM "Highlight ","hilight"
+					MENUITEM "DeHighlight ","dehilight"
+					MENUITEM "AssignColor (yellow) ","replay acy_qb.scr"
+					
+				END
 				
 				MENUITEM SEPARATOR
 				MENUITEM "Display ++ ","nothing_qb"
 				MENUITEM "Display -- ","nothing_qb"
-				MENUITEM "ref doc ... ","nothing_qb"
+				MENUITEM "ref doc ... ","ref_doc_dt_qb"
 			END 
+			
+			POPUP "Parameters / Constraint"
+			BEGIN
+				MENUITEM SEPARATOR
+				MENUITEM "ref doc ... ","nothing_qb"
+			END
+			
+			POPUP "Layout Tool"
+			BEGIN
+				MENUITEM SEPARATOR
+				MENUITEM "ref doc ... ","nothing_qb"
+			END
 			
 			POPUP "Rounting Tool"
 			BEGIN
@@ -1205,8 +1227,25 @@ BEGIN
 			
 			POPUP "Specific Operation"
 			BEGIN
+				POPUP "Find ... "
+				BEGIN
+					MENUITEM "Find all","replay fa_qb.scr"
+					MENUITEM "Find all off","replay fo_qb.scr"
+					MENUITEM "Find symbol","replay fm_qb.scr"
+					MENUITEM "Find figure","replay ff_qb.scr"
+					MENUITEM "Find shape","replay fs_qb.scr"
+					MENUITEM "Find text","replay ft_qb.scr"
+					MENUITEM "Find pin","replay fp_qb.scr"
+					MENUITEM "Find via","replay fv_qb.scr"
+					MENUITEM "Find net","replay fn_qb.scr"
+					MENUITEM "Find line","replay fl_qb.scr"
+					MENUITEM "Find other segs","replay fxl_qb.scr"
+					MENUITEM "Find Cline","replay fc_qb.scr"
+					MENUITEM "Find Cline segs","replay fxc_qb.scr"
+					MENUITEM "Find DRC error","replay fd_qb.scr"
+				END
 				MENUITEM SEPARATOR
-				MENUITEM "ref doc ... ","nothing_qb"
+				MENUITEM "ref doc ... ","ref_doc_so_qb"
 			END
 	
 	END 

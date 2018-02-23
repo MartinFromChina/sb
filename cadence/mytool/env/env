@@ -7,19 +7,46 @@ alias ~A     next
 
 alias sld   s_layer_qb
 alias mld   m_layer_qb
-alias IOdxf   DiXiF_display_qb
+alias IOdxf DiXiF_display_qb
+alias npd   normal_pd_qb
+#alias slk   s_layer_keep_qb
+#alias mlk   m_layer_keep_qb
 
-funckey w  add connect
 
 
 
-funckey  skl0 skill_load
-funckey  skl1 skill_load_real
-#funckey cs  colorset
-funckey sdt silkscreen_dt_qb
-funckey sdb silkscreen_db_qb
-funckey siv replay poly_invisib_qb.scr
-funckey sv  replay poly_visib_qb.scr
+funckey w  		add connect
+
+
+
+
+funckey  skl0 		skill_load
+funckey  skl1 		skill_load_real
+#funckey cs 	 	colorset
+funckey sdt 		silkscreen_dt_qb
+funckey sdb 		silkscreen_db_qb
+funckey siv 		replay poly_invisib_qb.scr
+funckey sv  		replay poly_visib_qb.scr
+
+#####################   find   ##############################
+funckey fa			replay fa_qb.scr
+funckey fo			replay fo_qb.scr
+funckey fm			replay fm_qb.scr
+funckey ff			replay ff_qb.scr
+funckey fs			replay fs_qb.scr
+funckey ft			replay ft_qb.scr
+funckey fp			replay fp_qb.scr
+funckey fv			replay fv_qb.scr
+funckey fn			replay fn_qb.scr
+funckey fl			replay fl_qb.scr
+funckey fxl			replay fxl_qb.scr
+funckey fc			replay fc_qb.scr
+funckey fxc			replay fxc_qb.scr
+funckey fd			replay fd_qb.scr
+##########################################################
+funckey hl	 		hilight
+funckey dl 			dehilight
+funckey acy			replay acy_qb.scr
 
 ### User Preferences section
 ### This section is computer generated.
