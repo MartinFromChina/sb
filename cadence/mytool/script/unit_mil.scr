@@ -1,0 +1,24 @@
+# Allegro script
+#	file: E:/win10real/win10real_file/PCB/new_start/normal_work/20180209_IO/cadence_project/art_param.scr
+#	start time: Fri Feb 23 18:39:02 2018
+#	Version: 16.6-2015 S066 (v16-6-112FJ) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 0
+generaledit
+prmed 
+setwindow form.prmedit
+FORM prmedit text  
+FORM prmedit design  
+FORM prmedit units Mils 
+FORM prmedit accuracy 2 
+FORM prmedit apply  
+setwindow pcb
+trapsize 0
+setwindow form.prmedit
+FORM prmedit done  
+setwindow pcb
+generaledit 
+
+#	stop time: Fri Feb 23 18:39:34 2018

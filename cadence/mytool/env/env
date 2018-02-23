@@ -4,6 +4,7 @@ source $TELENV
 alias ~G   oops
 alias ~F   done
 alias ~A     next
+alias ~M     move
 
 alias sld   s_layer_qb
 alias mld   m_layer_qb
@@ -11,6 +12,7 @@ alias IOdxf DiXiF_display_qb
 alias npd   normal_pd_qb
 #alias slk   s_layer_keep_qb
 #alias mlk   m_layer_keep_qb
+alias  ~E    rotate 
 
 
 
@@ -47,6 +49,21 @@ funckey fd			replay fd_qb.scr
 funckey hl	 		hilight
 funckey dl 			dehilight
 funckey acy			replay acy_qb.scr
+
+#####################   layout   ##############################
+funckey m           replay mirror_qb.scr
+funckey av			replay av_qb.scr
+funckey ah			replay ah_qb.scr
+funckey ae			replay ae_qb.scr
+funckey aie			replay aep_qb.scr
+funckey ade			replay aes_qb.scr
+
+
+funckey umil		replay unit_mil.scr
+funckey umm			replay unit_mm.scr
+funckey gs			quick_grids_qb
+##########################################################
+
 
 ### User Preferences section
 ### This section is computer generated.

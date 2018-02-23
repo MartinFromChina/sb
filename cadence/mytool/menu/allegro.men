@@ -1209,6 +1209,24 @@ BEGIN
 			
 			POPUP "Layout Tool"
 			BEGIN
+				MENUITEM "Rotate ","rotate"
+				MENUITEM "Mirror ","replay mirror_qb.scr"
+				POPUP "Align Components...	"
+				BEGIN
+					MENUITEM "Align Vertical ","replay av_qb.scr"
+					MENUITEM "Align Horizontal ","replay ah_qb.scr"
+					MENUITEM "Equal Space  ","replay ae_qb.scr"
+					MENUITEM "Equal Space ++ ","replay aep_qb.scr"
+					MENUITEM "Equal Space -- ","replay aes_qb.scr"
+				END
+				POPUP "Grids...	"
+				BEGIN
+					MENUITEM "Grids toggle ","grid toggle"
+					MENUITEM "Grids size","quick_grids_qb"
+					MENUITEM "Unit mm ","replay unit_mm.scr"
+					MENUITEM "Unit mil ","replay unit_mil.scr"
+					MENUITEM "Grids fit","nothing_qb"
+				END
 				MENUITEM SEPARATOR
 				MENUITEM "ref doc ... ","nothing_qb"
 			END

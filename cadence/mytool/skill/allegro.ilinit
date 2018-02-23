@@ -17,5 +17,6 @@ load("multi_layer_display.il")
 load("20180220_DXF_display.il")
 load("mytool_ref_docs.il")
 load("Normal_PCB_display.il")
+load("quick_grids.il")
 
 

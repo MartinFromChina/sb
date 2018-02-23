@@ -1,0 +1,12 @@
+# Allegro script
+#	file: E:/win10real/win10real_file/PCB/new_start/normal_work/20180209_IO/cadence_project/art_param.scr
+#	start time: Fri Feb 23 15:17:17 2018
+#	Version: 16.6-2015 S066 (v16-6-112FJ) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 352
+prepopup 770.28 263.15
+pop mirror 
+
+#	stop time: Fri Feb 23 15:17:31 2018
