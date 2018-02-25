@@ -1211,6 +1211,7 @@ BEGIN
 			BEGIN
 				MENUITEM "Rotate ","rotate"
 				MENUITEM "Mirror ","replay mirror_qb.scr"
+				MENUITEM "Find Components","find_component_qb"
 				POPUP "Align Components...	"
 				BEGIN
 					MENUITEM "Align Vertical ","replay av_qb.scr"
@@ -1233,12 +1234,18 @@ BEGIN
 			
 			POPUP "Rounting Tool"
 			BEGIN
+				//MENUITEM "Layer/via select ","nothing_qb"
+				//MENUITEM "Width Set ","nothing_qb"
+				MENUITEM "Width Change ","nothing_qb"
+				MENUITEM "Line Smooth... ","nothing_qb"
 				MENUITEM SEPARATOR
 				MENUITEM "ref doc ... ","nothing_qb"
 			END
 			
 			POPUP "About Gerber ..."
 			BEGIN
+				MENUITEM "Component Ref Figure ","nothing_qb"
+				MENUITEM "Art Work Set ","nothing_qb"
 				MENUITEM SEPARATOR
 				MENUITEM "ref doc ... ","nothing_qb"
 			END

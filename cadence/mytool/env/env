@@ -62,6 +62,7 @@ funckey ade			replay aes_qb.scr
 funckey umil		replay unit_mil.scr
 funckey umm			replay unit_mm.scr
 funckey gs			quick_grids_qb
+funckey cf	        find_component_qb
 ##########################################################
 
 

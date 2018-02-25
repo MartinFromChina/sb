@@ -143,6 +143,22 @@ let((allLayer countLayer param)
 			axlUIWPrint(nil "DXF + AREA/routekeepout display complet...")
 			;------------------------------------- 
 		)
+		(3								;previous display + AREA/constraint 
+			;------------------------------------- 
+			foreach(l allLayer
+						axlVisibleLayer(strcat("CONSTRAINT REGION/" l) t)		
+						   	
+					)
+			axlVisibleLayer("CONSTRAINT REGION /INNER_LAANE_LAYERS" t)	
+			axlVisibleLayer("CONSTRAINT REGION /INNER_SIGNAL_LAYERS" t)	
+			axlVisibleLayer("CONSTRAINT REGION /OUTER_LAYERS" t)	
+			axlVisibleLayer("CONSTRAINT REGION /ALL" t)	
+			axlVisibleUpdate(t)
+			axlUIWPrint(nil "previous display + AREA/constraint region complet...")
+			
+			
+		
+		)
 		(t								;normal 
 			;------------------------------------- 
 			axlVisibleDesign(nil)
