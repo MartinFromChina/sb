@@ -1,0 +1,20 @@
+
+axlCmdRegister("runscript" 'run_script );?cmdType "general"
+
+(defun DREND ()
+          Script_File=outfile("DRILL_LEGEND.scr" "w")
+          fprintf(Script_File "setwindow pcb\n")
+          fprintf(Script_File "trapsize 9237\n")
+          fprintf(Script_File "generaledit\n")
+          fprintf(Script_File "delete\n")
+          fprintf(Script_File "setwindow form.find\n")
+          fprintf(Script_File "FORM find all_on\n")
+          fprintf(Script_File "setwindow pcb\n")
+          fprintf(Script_File "drag_start grid 6573.11 -3787.21\n")
+          fprintf(Script_File "drag_stop 13408.81 -8165.76\n")
+          fprintf(Script_File "prepopup 14018.49 -5837.93\n")
+          fprintf(Script_File "done\n")
+          close(Script_File)
+          axlShell("replay DRILL_LEGEND.scr")
+); end DREND
+axlCmdRegister( "DREND" `DREND)
